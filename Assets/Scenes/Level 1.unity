@@ -292,7 +292,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 45
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -670,6 +670,10 @@ MonoBehaviour:
   speed: 20
   xRange: 5.5
   yRange: 3
+  positionPitchFactor: -5
+  controlPitchFactor: -30
+  positionYawFactor: -5
+  controlRollFactor: -20
 --- !u!1 &1937433707
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,12 +784,12 @@ PrefabInstance:
     - target: {fileID: 7561488125287845878, guid: 031abbb149b6e1e4badc8476d6812c35,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7561488125287845878, guid: 031abbb149b6e1e4badc8476d6812c35,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7561488125287845878, guid: 031abbb149b6e1e4badc8476d6812c35,
         type: 3}
